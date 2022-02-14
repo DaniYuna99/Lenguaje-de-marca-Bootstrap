@@ -1,0 +1,62 @@
+body {
+    background-color: rgb(254, 177, 180);
+    color: white;
+    font-size: large;
+    font-family: Garamond;
+}
+
+header {
+    font-family: Arial;
+    font-size: medium;
+}
+
+/*Contenedor del texto superior*/
+div#primerContenedor {
+    margin-top: 5rem;
+    background-color: rgb(253, 94, 98);
+}
+
+
+/*Contenedores de las flores*/
+div#segundoContenedor, div#tercerContenedor, div#cuartoContenedor, div#quintoContenedor, div#sextoContenedor {
+    background-color: rgb(253, 94, 98);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+img {
+    width: 270px;
+    height: 270px;
+    margin-top: 1.5em;
+}
+
+.textoFloresLeft {
+    margin-left: 6em;
+}
+
+.textoFloresRight {
+    margin-right: 6em;
+}
+
+#h4Left {
+    margin-left: 4em;
+}
+
+#h4Right {
+    margin-right: 4em;
+}
+
+#tablaLeft {
+    margin-left: 3.2em;
+}
+
+#tablaRight {
+    margin-right: 3.2em;
+}
+
+
+/*Pie de pagina*/
+footer {
+    color: rgb(102, 104, 103);
+    font-family: serif;
+}

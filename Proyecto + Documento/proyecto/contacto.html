@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/contacto.css">
+    <title> Contacto </title>
+  </head>
+  <body>
+    <!-- CABECERA -->
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+          <a class="navbar-brand" href="#">Floristería Alraune</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Página principal</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="inventario.html">Catálogo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pedido.html">Realizar pedido</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <!-- FIN CABECERA --> 
+
+      <div id="textoArriba" class="container-fluid p-4 text-center border">
+          <h1>Atención al cliente</h1>
+          <p> Si necesitas ayuda o quieres comunicarte con nosotros, estamos a tu disposición.</p>
+          <p> En Alraune tu satisfacción es nuestra prioridad.</p>
+      </div>
+
+
+      <div id="textoConsulta" class="container-fluid p-4 text-center">
+          <h3> Envíanos tu consulta y te contestaremos lo antes posible </h3>
+          
+          <br>
+          
+          <form method="get" action="https://iesjacaranda.es/lmsgi/resultado.php">
+            <p>
+                <select id="seleccionConsulta" class="select" name="Motivo consulta" required>
+                <option selected>Selecciona el motivo de tu consulta *</option>
+                <option value="Dudas de compra">Tengo dudas sobre el proceso de compra</option>
+                <option value="Estado de pedido">Quiero saber el estado de mi pedido</option>
+                <option value="Cambiar pedido">Quiero cambiar un pedido</option>
+                <option value="Cancelar pedido">Quiero cancelar un pedido</option>
+                <option value="Devolucion pedido">Quiero devolver un pedido</option>
+
+                </select>
+            </p>
+            
+
+                <input id="emailSolicitud" type="email" name="Email consulta" placeholder="Escriba su email para contactarte" size="30" required>
+
+                <br><br>
+
+                <p> <button type="submit" class="btn btn-primary px-3"> <i class="fa-solid fa-paper-plane"> <font face="Verdana"> Enviar </font> </i> </button> </p>
+           </form> 
+
+      </div>
+
+      <br> <br> <br> 
+
+      <hr class="featurette-divider">
+
+    <!-- FOOTER -->
+      <footer class="container">
+        <p class="float-right"></p>
+        <p>&copy; 2021-2022 Florístería Alraune, S.L. </p>
+      </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/9fd5799496.js" crossorigin="anonymous"> </script>
+
+    </body>
+</html>

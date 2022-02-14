@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(254, 177, 180);
+}
+
+
+#opcionProducto * input {
+    padding: 1em;
+}
+
+#contenedorFormulario {
+    margin-top: 1rem;
+}
+
+header {
+    font-family: Arial;
+}
+
+

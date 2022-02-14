@@ -1,0 +1,29 @@
+#textoArriba {
+    margin-top: 5rem;
+    background-color: rgb(253, 94, 98);
+    color: white;
+    font-family: serif, Garamond;
+    font-size: large;
+}
+
+body {
+    background-color: rgb(254, 177, 180);
+}
+
+header {
+    font-family: Arial;
+}
+
+
+h3 {
+    color: rgb(102, 104, 103);
+}
+
+#seleccionConsulta {
+    padding: 0.7em 30% 0.7em 30%;
+}
+
+#emailSolicitud {
+    padding: 0.7em 32% 0.7em 32%;
+
+}

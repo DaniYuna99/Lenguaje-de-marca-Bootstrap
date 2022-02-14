@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="css/formulario.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9fd5799496.js" crossorigin="anonymous"> </script>
+    <title> Formulario de pedido </title>
+  </head>
+  
+  <body>
+
+    <!-- CABECERA -->
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="#">Floristería Alraune</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Página principal</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="inventario.html">Catálogo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pedido.html">Realizar pedido</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- FIN CABECERA --> 
+    
+    
+    <!-- FORMULARIO -->
+    <form action="https://iesjacaranda.es/lmsgi/resultado.php" method="get"> 
+      <div id="contenedorFormulario" class="container py-5">
+        <div class="row d-flex justify-content-center align-items-center">
+          <div class="col">
+            <div class="card my-4 shadow-3">
+              <div class="row g-0">
+                <div class="col-xl-6 d-xl-block bg-image">
+                  <img src="https://mdbcdn.b-cdn.net/img/Others/extended-example/delivery.webp"
+                    alt="Pedido" class="img-fluid" />
+                  
+                </div>
+                <div class="col-xl-6">
+                  <div class="card-body p-md-5 text-black">
+                    <h3 class="mb-4 text-uppercase">Información de pedido</h3>
+      
+                    <div class="row">
+                      <div class="col-md-6 mb-4">
+                        <div class="form-outline">
+                          <input type="text" name="Nombre" id="form3Example1m" class="form-control form-control-lg" required/>
+                          <label class="form-label" for="form3Example1m">Nombre</label>
+                        </div>
+                      </div>
+                      <div class="col-md-6 mb-4">
+                        <div class="form-outline">
+                          <input type="text" name="Primer apellido" id="form3Example1n" class="form-control form-control-lg" required/>
+                          <label class="form-label" for="form3Example1n">Primer apellido</label>
+                        </div>
+                      </div>
+                    </div>
+      
+                    <div class="form-outline mb-4">
+                      <input type="text" name="Direccion" id="form3Example8" class="form-control form-control-lg" required />
+                      <label class="form-label" for="form3Example8">Dirección</label>
+                    </div>
+
+                    
+                    <div class="row">
+
+                      <div class="col-md-4 mb-4">
+                        <select class="select" name="Producto" required>
+                          <option selected>Producto</option>
+                          <option value="Rosas">Rosa</option>
+                          <option value="Gerbera">Gerbera</option>
+                          <option value="Alstroemeria">Alstroemeria</option>
+                          <option value="Clavel">Clavel</option>
+                          <option value="Crisantemo">Crisantemo</option>
+                        </select>
+                      </div>
+
+                      <div class="col-md-4 mb-4">
+      
+                        <select class="select" name="Cantidad" required>
+                          <option selected>Cantidad</option>
+                          <option value="Unidad">Una unidad</option>
+                          <option value="Ramo de 20">Un ramo de 20</option>
+                        </select>
+      
+                      </div>
+
+                      <div class="col-md-4 mb-4">
+      
+                        <select class="select" name="Provincia" required>
+                          <option selected>Provincia</option>
+                          <option value="Sevilla">Sevilla</option>
+                          <option value="Cadiz">Cádiz</option>
+                          <option value="Huelva">Huelva</option>
+                          <option value="Granada">Granada</option>
+                          <option value="Jaen">Jaén</option>
+                          <option value="Cordoba">Córdoba</option>
+                          <option value="Almeria">Almería</option>
+                          <option value="Malaga">Málaga</option>
+                        </select>
+      
+                      </div>
+
+                      
+
+                    </div>
+                      
+                      
+      
+                    <div class="form-outline mb-4">
+                      <input type="number" name="Telefono" id="form3Example3" class="form-control form-control-lg" required/>
+                      <label class="form-label" for="form3Example3">Teléfono</label>
+                    </div>
+      
+                    <div class="form-outline mb-4">
+                      <input type="text" name="Email" id="form3Example2" class="form-control form-control-lg" required/>
+                      <label class="form-label" for="form3Example2">Email</label>
+                    </div>
+      
+                    <div class="d-flex justify-content-end pt-3">
+                      <button type="submit" class="btn btn-success btn-lg ms-2"
+                        style="background-color:hsl(210, 100%, 50%)"> <i class="fa-solid fa-box"> <font face="Verdana"> Enviar pedido </font></i></button>
+                    </div>
+      
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- FIN FORMULARIO -->
+    </form>
+
+    <hr class="featurette-divider">
+
+    <!-- FOOTER -->
+    <footer class="container">
+        <p class="float-right">
+        <p>&copy; 2021-2022 Florístería Alraune, S.L. </p>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
